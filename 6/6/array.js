@@ -278,5 +278,3 @@
 //    console.log("No hi ha cap número repetit.");
 //}
 //}
-
-// 21.23.- Fes un programa que et digui el model i la marca del vehicle més antic.
