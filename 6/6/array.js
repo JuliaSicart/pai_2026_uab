@@ -261,20 +261,22 @@
 
 //21.22.- Fes un programa que, donada una taula escrigui a la pantalla el primer número que estigui repetit.
 
-let TaulaValors = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 6, 8, 19, 5, 3, 4 ,2 , 6, 9, 11, 3];
-let primerRepetit = null;
-let trobat = false;
+//let TaulaValors = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 6, 8, 19, 5, 3, 4 ,2 , 6, 9, 11, 3];
+//let primerRepetit = null;
+//let trobat = false;
 
-for (let i = 0; i < TaulaValors.length && !trobat; i++) {  
-    for (let j = i + 1; j < TaulaValors.length && !trobat; j++) {
-        if (TaulaValors[i] === TaulaValors[j]) {
-            primerRepetit = TaulaValors[i];
-            trobat = true;
-        }
-}
-if (primerRepetit !== null) {
-    console.log("El primer número que està repetit és: " + primerRepetit);
-} else {
-    console.log("No hi ha cap número repetit.");
-}
-}
+//for (let i = 0; i < TaulaValors.length && !trobat; i++) {  
+//    for (let j = i + 1; j < TaulaValors.length && !trobat; j++) {
+//        if (TaulaValors[i] === TaulaValors[j]) {
+//            primerRepetit = TaulaValors[i];
+//            trobat = true;
+//        }
+//}
+//if (primerRepetit !== null) {
+//    console.log("El primer número que està repetit és: " + primerRepetit);
+//} else {
+//    console.log("No hi ha cap número repetit.");
+//}
+//}
+
+// 21.23.- Fes un programa que et digui el model i la marca del vehicle més antic.
